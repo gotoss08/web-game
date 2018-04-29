@@ -1,0 +1,1 @@
+const SCALE_PLAYERS = 6;

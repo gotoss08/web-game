@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Web Roguelike</title>
+    <style media="screen">
+      body {
+        background-color: black;
+        color: white;
+        padding: 0;
+        margin: 0;
+      }
+      canvas {
+        top: 0;
+        left: 0;
+        background-color: white;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .title {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title">Web Roguelike</h1>
+    <div id="game-canvas-placeholder"></div>
+    <!-- third party libs -->
+    <script src="javascript/socket.io.js" charset="utf-8"></script>
+    <script src="javascript/pixi.js" charset="utf-8"></script>
+    <script src="javascript/Tween.js" charset="utf-8"></script>
+    <!-- client libs -->
+    <script src="javascript/config.js" charset="utf-8"></script>
+    <script src="javascript/keyboard.js" charset="utf-8"></script>
+    <!-- libs initialization -->
+    <script src="javascript/init.js" charset="utf-8"></script>
+    <!-- client itself -->
+    <script src="javascript/world.js" charset="utf-8"></script>
+    <script src="javascript/client.js" charset="utf-8"></script>
+  </body>
+</html>

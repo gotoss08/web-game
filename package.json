@@ -1,0 +1,25 @@
+{
+  "name": "game-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "gotoss08",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/server/server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "socket.io": "^2.1.0",
+    "uniqid": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3",
+    "eslint": "4.9.0",
+    "es-beautifier": "^1.0.0",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-jsx-a11y": "6.0.2",
+    "eslint-plugin-react": "7.4.0",
+    "eslint-config-airbnb": "16.1.0"
+  }
+}

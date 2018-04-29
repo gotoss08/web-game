@@ -1,0 +1,11 @@
+{
+    "extends": "airbnb",
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "rules": {
+        "require-jsdoc": "off",
+        "no-console": "off",
+        "no-param-reassign": "off"
+    }
+}
